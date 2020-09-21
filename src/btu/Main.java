@@ -12,6 +12,8 @@ public class Main {
         Task6 task6 = new Task6();
         Task7 task7 = new Task7();
         Task8 task8 = new Task8();
+        Task9 task9 = new Task9();
+        Task10 task10 = new Task10();
 
         //task1.Task1();
         //task2.Task2();
@@ -21,5 +23,7 @@ public class Main {
         //task6.Task6();
         //task7.Task7();
         //task8.Task8();
+        //task9.Task9();
+        //task10.Task10();
     }
 }
