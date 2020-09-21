@@ -14,16 +14,20 @@ public class Main {
         Task8 task8 = new Task8();
         Task9 task9 = new Task9();
         Task10 task10 = new Task10();
+        Task11 task11 = new Task11();
+        Task12 task12 = new Task12();
 
-        //task1.Task1();
-        //task2.Task2();
-        //task3.Task3();
-        //task4.Task4();
-        //task5.Task5();
-        //task6.Task6();
-        //task7.Task7();
-        //task8.Task8();
-        //task9.Task9();
-        //task10.Task10();
+        task1.Task1();
+        task2.Task2();
+        task3.Task3();
+        task4.Task4();
+        task5.Task5();
+        task6.Task6();
+        task7.Task7();
+        task8.Task8();
+        task9.Task9();
+        task10.Task10();
+        task11.Task11();
+        task12.Task12();
     }
 }
