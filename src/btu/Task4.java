@@ -6,15 +6,22 @@ public class Task4 {
 
     public void Task4(){
         System.out.println("\nEnter three digit num:");
-        int three_digit = input.nextInt();
+        try{
+            int three_digit = input.nextInt();
 
-        if((three_digit / 100) >= 1 && (three_digit / 100) < 10){
-            System.out.format("%d\n%d\n%d", (three_digit / 100), ((three_digit % 100) / 10), (three_digit % 10));
+            String number = String.valueOf(three_digit);
+            char[] digits = number.toCharArray();
+
+            if(digits.length == 3)
+                for(char i:digits)
+                    System.out.format("\n%s", i);
+            else {
+                System.out.println("\nThe number entered is not three digit.\nTrying again...\n");
+                this.Task4();
+            }
         }
-
-        else {
-            System.out.println("\nThe number entered is not three digit.\nTrying again...\n");
-            this.Task4();
+        catch (Exception e) {
+            System.out.println("\nInput is not a number.");
         }
     }
 }
